@@ -19,25 +19,25 @@
 ## ✨ Fitur
 
 ### 📊 **Fungsi Utama**
-- **Manajemen Transaksi**: Tambah, edit, dan hapus transaksi pemasukan/pengeluaran
-- **Kategorisasi Cerdas**: Kategori yang telah ditentukan untuk pemasukan dan pengeluaran
-- **Pencarian Real-time**: Cari transaksi secara instan
-- **Filter Lanjutan**: Filter berdasarkan jenis transaksi, rentang tanggal, dan kategori
+- **Manajemen Transaksi**: Tambah, edit, dan hapus transaksi pemasukan/pengeluaran dengan mudah
+- **Kategorisasi Cerdas**: Kategori yang telah ditentukan untuk pemasukan (Salary, Business, Investment, dll) dan pengeluaran (Food & Dining, Transportation, Shopping, dll)
+- **Pencarian Real-time**: Cari transaksi secara instan berdasarkan judul atau kategori
+- **Filter Lanjutan**: Filter berdasarkan jenis transaksi (All, Income, Expense) dengan tampilan yang responsif
 - **Persistensi Data**: Semua data disimpan secara lokal menggunakan SwiftData
 
 ### 📈 **Analitik & Wawasan**
-- **Grafik Interaktif**: Grafik lingkaran, batang, dan garis yang indah
-- **Ringkasan Keuangan**: Perhitungan saldo dan ringkasan secara real-time
-- **Analisis Kategori**: Rincian detail pengeluaran berdasarkan kategori
-- **Filter Berdasarkan Waktu**: Lihat data per minggu, bulan, tahun, atau semua waktu
-- **Statistik Visual**: Halaman statistik komprehensif dengan wawasan
+- **Grafik Interaktif**: Grafik lingkaran, batang, dan garis yang indah dengan Charts framework iOS
+- **Ringkasan Keuangan**: Perhitungan saldo dan ringkasan secara real-time (Total Income: Rp1.000.000, Total Expense, Net Income)
+- **Analisis Kategori**: Rincian detail pengeluaran berdasarkan kategori dengan visualisasi yang menarik
+- **Filter Berdasarkan Waktu**: Lihat data per minggu, bulan, tahun, atau semua waktu dengan segmented control
+- **Statistik Visual**: Halaman statistik komprehensif dengan Monthly Trends dan Category Breakdown
 
 ### 🎨 **Desain Modern**
-- **UI yang Indah**: Latar belakang gradien modern dan animasi yang halus
-- **UX yang Intuitif**: Antarmuka yang bersih dan ramah pengguna dengan umpan balik haptik
+- **UI yang Indah**: Latar belakang gradien modern biru-putih dan animasi yang halus
+- **UX yang Intuitif**: Antarmuka yang bersih dengan card-based design dan umpan balik visual
 - **Mode Gelap/Terang**: Desain adaptif yang bekerja di kedua mode
-- **Layout Responsif**: Dioptimalkan untuk semua ukuran layar iPhone
-- **Sentuhan Profesional**: Layout berbasis kartu dengan bayangan halus dan efek
+- **Layout Responsif**: Dioptimalkan untuk semua ukuran layar iPhone dengan komponen yang fleksibel
+- **Sentuhan Profesional**: Layout berbasis kartu dengan bayangan halus, rounded corners, dan efek hover
 
 ### 🔧 **Fitur Teknis**
 - **Integrasi SwiftData**: Pengganti Core Data modern untuk manajemen data
@@ -50,17 +50,29 @@
 
 ## 📱 Screenshot
 
-### Dashboard Utama
+<div align="center">
+
+### 🏠 Dashboard Utama
 > Tampilan bersih status keuangan Anda dengan kartu ringkasan yang indah
 
-### Manajemen Transaksi
-> Form yang mudah digunakan untuk menambah dan mengedit transaksi dengan pratinjau langsung
+<img src="./Screenshots/dashboard.png" width="300" alt="Dashboard Utama">
 
-### Analitik & Grafik
+### 📊 Halaman Statistik
 > Statistik komprehensif dengan grafik interaktif dan wawasan
 
-### Fitur Cerdas
-> Filter lanjutan, fungsi pencarian, dan manajemen kategori
+<img src="./Screenshots/statistics.png" width="300" alt="Halaman Statistik">
+
+### ➕ Tambah Transaksi
+> Form yang mudah digunakan untuk menambah transaksi dengan interface yang intuitif
+
+<img src="./Screenshots/add-transaction.png" width="300" alt="Tambah Transaksi">
+
+### 🔍 Fitur Pencarian & Filter
+> Filter lanjutan dan fungsi pencarian untuk menemukan transaksi dengan mudah
+
+<img src="./Screenshots/search-filter.png" width="300" alt="Pencarian dan Filter">
+
+</div>
 
 ---
 
@@ -78,7 +90,7 @@
    git clone https://github.com/FerdinandTJ/FinanceTrackerApp.git
    cd FinanceTrackerApp
    ```
-
+S
 2. **Buka di Xcode**
    ```bash
    open "Finance App.xcodeproj"
@@ -88,6 +100,22 @@
    - Pilih target device atau simulator Anda
    - Tekan `Cmd + R` untuk build dan run
    - Tidak ada dependensi tambahan yang diperlukan!
+
+### 📸 Menambahkan Screenshot
+Untuk melengkapi README dengan screenshot:
+
+1. **Jalankan aplikasi** di iOS Simulator atau device
+2. **Tambahkan beberapa contoh data** transaksi untuk demo
+3. **Ambil screenshot** untuk setiap halaman:
+   - Dashboard utama dengan transaksi
+   - Halaman statistik dengan grafik
+   - Form tambah transaksi
+   - Hasil pencarian dan filter
+4. **Simpan gambar** ke folder `Screenshots/` dengan nama:
+   - `dashboard.png`
+   - `statistics.png` 
+   - `add-transaction.png`
+   - `search-filter.png`
 
 ---
 
