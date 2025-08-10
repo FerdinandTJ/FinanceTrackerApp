@@ -101,24 +101,6 @@ S
    - Tekan `Cmd + R` untuk build dan run
    - Tidak ada dependensi tambahan yang diperlukan!
 
-### 📸 Menambahkan Screenshot
-Untuk melengkapi README dengan screenshot:
-
-1. **Jalankan aplikasi** di iOS Simulator atau device
-2. **Tambahkan beberapa contoh data** transaksi untuk demo
-3. **Ambil screenshot** untuk setiap halaman:
-   - Dashboard utama dengan transaksi
-   - Halaman statistik dengan grafik
-   - Form tambah transaksi
-   - Hasil pencarian dan filter
-4. **Simpan gambar** ke folder `Screenshots/` dengan nama:
-   - `dashboard.png`
-   - `statistics.png` 
-   - `add-transaction.png`
-   - `search-filter.png`
-
----
-
 ## 💻 Cara Penggunaan
 
 ### Menambah Transaksi
