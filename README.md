@@ -280,11 +280,3 @@ copies or substantial portions of the Software.
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/FerdinandTJ/FinanceTrackerApp)
 
 ---
-
-<div align="center">
-
-**⭐ Beri bintang pada repository ini jika bermanfaat!**
-
-**Dibuat dengan ❤️ menggunakan SwiftUI**
-
-</div>
